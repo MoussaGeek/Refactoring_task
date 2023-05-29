@@ -34,6 +34,8 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'rexml'
+  gem 'diff-lcs', '1.5.0'
+  gem 'active_decorator'
 end
 
 group :development do
